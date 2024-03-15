@@ -1,0 +1,523 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, user-scalable=no" />
+<meta name="title" content="전북대학교 생활협동조합 - 전북대 소비자 생협" />
+<meta name="subject" content="전북대학교 생활협동조합">
+<meta name="author" content="전북대학교 생활협동조합">
+<meta name="description" content="전북대학교 생활협동조합 - 전북대 소비자 생협">
+<meta name="robots" content="index,follow" />
+<title>전북대학교 생활협동조합</title>
+<meta property="og:type" content="website">
+<meta property="og:title" content="전북대학교 생활협동조합">
+<meta property="og:description" content="전북대학교 생활협동조합">
+<meta property="og:image" content="//sobi.chonbuk.ac.kr/images/sobi/common/openImg.jpg">
+<meta property="og:url" content="//sobi.chonbuk.ac.kr">
+<link rel="shortcut icon" href="">
+<link type="text/css" href="/common/css/basic.css?v=20180503" rel="stylesheet" />
+<link type="text/css" href="/common/css/layout.css?v=20180504" rel="stylesheet" />
+<link type="text/css" href="/common/css/board.css?v=20180503" rel="stylesheet" />
+<link type="text/css" href="/common/css/member.css?v=20180503" rel="stylesheet" />
+<link type="text/css" href="/common/css/slick.css?v=20180503" rel="stylesheet" />
+<script type="text/javascript" src="/common/js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="/common/js/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="/common/js/common.js"></script>
+<script type="text/javascript" src="/common/js/quick.js"></script>
+<script language="JavaScript" src="/js/General.js?v=20171226" type="text/javascript"></script>
+<script type="text/javascript" src="/common/js/slick.min.js"></script>
+
+<link rel="apple-touch-icon" sizes="152x152" href="/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+<link rel="manifest" href="/icons/site.webmanifest">
+<link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#fff"> 
+<meta name="msapplication-config" content="/icons/browserconfig.xml">
+<meta name="msapplication-TileColor" content="#fff">
+<meta name="theme-color" content="#fff"> 
+<meta name="naver-site-verification" content="309f640e79d947d89c6fad7424da226fc5557b09" />
+
+<script>
+function goApple(){
+	var con = confirm("생협조합원 로그인후 이용이 가능합니다.\n\n생협조합원 로그인 페이지로 이동하시겠습니까?");
+	if(con){
+		location.href = "/member.php?query=login";
+	}
+}
+
+function goApple2(){	
+	window.open("./popup/apple.php","apple2","width=870,height=1300,toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no");	
+}
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+
+
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+	js = d.createElement(s); js.id = id;
+	js.src = '//connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v2.10';
+	fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div id="wrap" class="sub">
+<div class="overlay"></div>
+<!-- header-->
+<div id="header">
+  <div class="headerWrap">
+	<div class="inner">
+		<h1><a href="/index.php"><img src="/images/sobi/common/logo2.jpg" alt="전북대학교 생활협동조합" /></a></h1>
+		<div class="member_area_t">
+        	            			<a href="/member.php?query=login" class="btn_mypage"><img src="/images/sobi/common/btn_mypage.png" alt="로그인/마이페이지" /></a>
+			<a href="javascript:allMenuView();" class="btn_allmenu"><img src="/images/sobi/common/btn_allmenu.png" alt="메뉴열기" /></a>
+		</div>
+		<div class="topmenu">
+			<ul>
+				<li class="menu1 ">
+					<a href="/about/coop.php">생협소개</a>
+					<div class="submenu">
+						<ul>
+							<li><a href="/about/coop.php" style="letter-spacing:-2px;">전북대 생활협동조합 소개</a></li>
+							<li><a href="/about/greeting.php">이사장 인사말씀</a></li>
+							<li><a href="/about/history.php">연혁</a></li>
+							<li><a href="/about/article.php">정관 및 제 규정</a></li>
+							<li><a href="/about/condition.php">조직도</a></li>
+							<!--<li><a href="/about/executive.php">임원현황</a></li>-->
+							<li><a href="/about/location.php">찾아오시는 길</a></li>
+						</ul>
+					</div>
+				</li>
+				<li class="menu2 ">
+					<a href="/guide/benefit.php">조합원안내</a>
+					<div class="submenu">
+						<ul>
+							<li><a href="/guide/benefit.php">조합원혜택</a></li>
+							<li><a href="/guide/join.php">조합원가입안내</a></li>
+							<li><a href="/guide/break.php">조합원탈퇴안내</a></li>
+							<!--
+							<li><a href="/guide/fluctuation.php">조합원소속변동안내</a></li>
+							<li><a href="/guide/modify.php">조합원정보변경안내</a></li>
+							-->
+						</ul>
+					</div>
+				</li>
+				<li class="menu3 ">
+					<a href="/ezboard.php?GID=root&BID=store&category=1">매장안내</a>
+					<div class="submenu">
+						<ul>
+							<li><a href="/ezboard.php?GID=root&BID=store&category=1">식당</a></li>
+							<li><a href="/ezboard.php?GID=root&BID=store&category=2">매점/커피점</a></li>
+							<li><a href="/ezboard.php?GID=root&BID=store&category=3">서점/종합매장</a></li>
+							<li><a href="https://hunsan.jbnu.ac.kr/" target="_blank">훈산건지하우스</a></li>
+						</ul>
+					</div>
+				</li>
+				<li class="menu4 on">
+					<a href="/menu/week_menu.php">주간식단</a>
+					<div class="submenu">
+						<ul>
+							<li><a href="/menu/week_menu.php">주간식단 안내</a></li>
+						</ul>
+					</div>
+				</li>
+				<li class="menu5 ">
+					<a href="/ezboard.php?GID=root&BID=board01">커뮤니티</a>
+					<div class="submenu">
+						<ul>
+							<li><a href="/ezboard.php?GID=root&BID=board01">공지사항</a></li>
+							<li><a href="/ezboard.php?GID=root&BID=board03">자유게시판</a></li>
+							<li><a href="/ezboard.php?GID=root&BID=board04">일반자료실</a></li>
+							<li><a href="/ezboard.php?GID=root&BID=board05">사진자료실</a></li>
+							
+						</ul>
+					</div>
+				</li>
+				
+			</ul>
+		</div>
+		<div class="mem_util">
+						<a href="/member.php?query=accept">회원가입</a>
+			<a href="/member.php?query=login">로그인</a>
+					</div>
+	</div>
+</div></div>
+<div class="allMenuWrap">
+	<div class="member_area">
+		<!-- 로그인 전 -->
+        		<a href="/member.php?query=login">로그인</a>
+		<a href="/member.php?query=accept">회원가입</a>
+			</div>
+	<div class="allMenu">
+		<dl>
+			<dt >생협소개</dt>
+			<dd >
+				<a href="/about/coop.php" >전북대 생활협동조합 소개</a>
+				<a href="/about/greeting.php" >이사장 인사말씀</a>
+				<a href="/about/history.php" >연혁</a>
+				<a href="/about/article.php" >정관 및 제 규정</a>
+				<a href="/about/condition.php" >조직도</a>
+				<!--<a href="/about/executive.php" >임원현황</a>-->
+				<a href="/about/location.php" >찾아오시는 길</a>
+			</dd>
+			<dt >조합원안내</dt>
+			<dd >
+				<a href="/guide/benefit.php" >조합원혜택</a>
+				<a href="/guide/join.php" >조합원가입안내</a>
+				<a href="/guide/break.php" >조합원탈퇴안내</a>
+				<!--
+				<a href="/guide/fluctuation.php" >조합원소속변동안내</a>
+				<a href="/guide/modify.php" >조합원정보변경안내</a>
+				-->
+			</dd>
+			<dt >매장안내</dt>
+			<dd >
+				<a href="/ezboard.php?GID=root&BID=store&category=1" >식당</a>
+				<a href="/ezboard.php?GID=root&BID=store&category=2" >매점/커피점</a>
+				<a href="/ezboard.php?GID=root&BID=store&category=3" >서점/종합매장</a>
+				<a href="https://hunsan.jbnu.ac.kr/" target="_blank">훈산건지하우스</a>
+			</dd>
+			<dt class="on">주간식단</dt>
+			<dd style="display:block;">
+				<a href="/menu/week_menu.php" >주간식단 안내</a>
+			</dd>
+			<dt >커뮤니티</dt>
+			<dd >
+				<a href="/ezboard.php?GID=root&BID=board01" >공지사항</a>
+				<a href="/ezboard.php?GID=root&BID=board03" >자유게시판</a>
+				<a href="/ezboard.php?GID=root&BID=board04" >일반자료실</a>
+				<a href="/ezboard.php?GID=root&BID=board05" >사진자료실</a>
+			</dd>
+		</dl>
+	</div>
+	<div class="allBanner">
+		<ul>
+			<li class="banner_01"><a href="https://www.jbnu.ac.kr" target="_blank"><img src="/images/sobi/common/menu_logo01.jpg" alt="">전북대학교 홈페이지</a></li>
+			<li class="banner_02"><a href="https://hunsan.jbnu.ac.kr" target="_blank"><img src="/images/sobi/common/menu_logo02.jpg" alt="">훈산건지하우스</a></li>
+			<!--<li class="banner_03"><a href="javascript:goCenter()"><img src="/images/sobi/common/menu_logo03.jpg" alt="">조합원가입센타</a></li>-->
+		</ul>
+	</div>
+</div><div class="subVisual">
+	<div class="inner">
+		<img src="/images/sobi/common/subvisual_txt.png" alt="" class="pc">
+		<img src="/images/sobi/common/subvisual_txt_m.png" alt="" class="tabmo">
+	</div>	
+</div>
+<div id="contents">
+<div id="LNB"><div class="tt_box">
+	<h2>주간식단</h2>
+</div>
+<div class="snbWrap">
+	<ul>
+		<li  class="active"><a href="/menu/week_menu.php">주간식단 안내</a></li>
+	</ul>
+</div>
+<div class="cs_box">
+	<strong class="tt">고객문의센터</strong>
+	<b class="num">063) 270-2151~2</b>
+	<span class="mail">chon2151@naver.com</span>
+	<p>생협에 대하여 궁금하신 사항을 <br>자세히 알려드립니다.</p>
+</div></div>
+
+<script type="text/javascript">
+function goCenter()
+{
+
+ window.open("", "cpCenter", "width=1000, height=700, toolbar=0, directories=0, status=0, menubar=0, scrollbars=1, resizable=1");
+ document.frmGoCenter.submit();
+
+}
+</script>
+<form name="frmGoCenter" action="http://partner.cway.co.kr:8100/" method="post" target="cpCenter" OnClick="return goCenter();">
+<input type="hidden" name="_UNIVCODE_" value="00103001"/>
+</form>
+
+<div id="quick">
+	<ul>
+		<li><a href="https://www.jbnu.ac.kr" target="_blank" rel="noopener noreferrer"><img src="/images/sobi/common/quick_01.jpg" alt="전북대학교 홈페이지"></a></li>
+		<li><a href="https://hunsan.jbnu.ac.kr" target="_blank" rel="noopener noreferrer"><img src="/images/sobi/common/quick_02.jpg" alt="훈산건지 하우스"></a></li>
+		<!--<li><a href="http://partner.cway.co.kr:8100/index.html?_UNIVCODE_=00103001" target="_blank" rel="noopener noreferrer"><img src="/images/sobi/common/quick_03.jpg" alt="조합원 가입센타"></a></li>-->
+	</ul>
+</div>
+<script type="text/javascript">initMoving(document.getElementById("quick"),180, 50, 80);</script>
+
+ <!-- PC 우측 퀵메뉴 -->
+<div class="contentsArea WeekMenu">
+	<div class="titleArea">
+		<h3>주간 식단 안내</h3>
+		<div class="location">홈 <span class="bul">&gt;</span> 식단안내 <span class="bul">&gt;</span> 주간 식단 안내</div>
+	</div>
+	<h4>전북대학교 소비자생활협동조합의 주간 식단을 안내해드립니다. </h4>
+    <link href="/common/css/layout.css" rel="stylesheet" type="text/css">
+    <link href="/common/css/basic.css" rel="stylesheet" type="text/css">
+    <div class="section">
+        <div class="ttArea"><h5 class="title">진수원</h5>    <span class="info">2월 2주 (2월 5일 ~ 2월 10일 적용)&nbsp;/&nbsp;<span
+                class="red">토요일 운영없음</span></span>
+            <div class="menu_scrollArea">
+                <div class="table_wrap">
+                    <table class="tblType03" cellspacing="0" cellpadding="0" width=">	<colgroup><col style="
+                           width:="" 4.5%
+                    "="">
+                    <colgroup>
+                        <col style="WIDTH: 6.5%">
+                        <col style="widh: 17.8%">
+                        <col style="widh: 17.8%">
+                        <col style="widh: 17.8%">
+                        <col style="widh: 17.8%">
+                        <col style="widh: 17.8%">
+                    </colgroup>
+                    <thead>
+                    <tr>
+                        <th colspan="2"><span style="letter-spacing: -2px;">식구분</span></th>
+                        <th><span style="letter-spacing: -2px;">월</span></th>
+                        <th><span style="letter-spacing: -2px;">화</span></th>
+                        <th><span style="letter-spacing: -2px;">수</span></th>
+                        <th><span style="letter-spacing: -2px;">목</span></th>
+                        <th><span style="letter-spacing: -2px;">금</span></th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th><span style="letter-spacing: -2px;">중<br/><br/>식</span></th>
+                        <th><span style="letter-spacing: -2px;">백반</span></th>
+                        <td>사골국&amp;소면사리<br/>지코바맛닭볶음<br/>군만두*양념장<br/>시금치나물무침</td>
+                        <td>얼큰닭곰탕(당면사리)<br/>돈육찹스테이크<br/>스팸계란볶음<br/>세발나물보리된장무침</td>
+                        <td>돈육감자고추장찌개<br/>허브순살닭볶음<br/>야끼우동<br/>쑥갓겉절이</td>
+                        <td>두부청국장찌개<br/>돈삼겸고추장불고기<br/>미니돈까스탕수<br/>채소쌈*쌈장</td>
+                        <td>설 연휴</td>
+                    </tr>
+                    <tr>
+                        <th><span style="letter-spacing: -2px;">석<br/><br/>식</span></th>
+                        <th><span style="letter-spacing: -2px;">백반</span></th>
+                        <td>나가사끼짬뽕라멘<br/>제육김치볶음&amp;찐두부<br/>미트볼마요강정<br/>치커리초무침</td>
+                        <td>장조림버터비빔밥<br/>황태해장국<br/>순살돈까스*소스<br/>망고샐러드</td>
+                        <td>얼큰쇠고기국<br/>과일탕수육<br/>미트볼토마토스파게티<br/>세발나물</td>
+                        <td>운영 없음</td>
+                        <td>운영 없음</td>
+                    </tr>
+                    </tbody>
+                    </table></div>
+            </div>
+            <div class="scroll_info">* 식단표를 스크롤하여 확인하세요.</div>
+        </div>
+    </div>
+    <link href="/common/css/layout.css" rel="stylesheet" type="text/css">
+    <link href="/common/css/basic.css" rel="stylesheet" type="text/css">
+    <div class="section">
+        <div class="ttArea"><h5 class="title">의대</h5>                                                <span class="info">2월 2주( 02월 05일 ~ 02월 09일 적용)&nbsp;/&nbsp;<span
+                class="red">토요일 운영없음</span>                                                </span>
+            <div class="menu_scrollArea">
+                <div class="table_wrap">
+                    <table class="tblType03" cellspacing="0" cellpadding="0">
+                        <colgroup>
+                            <col style="WIDTH: 4.5%">
+                            <col style="WIDTH: 6.5%">
+                            <col style="widh: 17.8%">
+                            <col style="widh: 17.8%">
+                            <col style="widh: 17.8%">
+                            <col style="widh: 17.8%">
+                            <col style="widh: 17.8%">
+                        </colgroup>
+                        <thead>
+                        <tr>
+                            <th colspan="2">식구분</th>
+                            <th>월</th>
+                            <th>화</th>
+                            <th>수</th>
+                            <th>목</th>
+                            <th>금</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th>중<br/><br/>식</th>
+                            <th>백반</th>
+                            <td>계란명란파국<br/>꽃도리탕<br/>짜장누들떡볶이<br/>버섯발사믹샐러드</td>
+                            <td>얼큰김치수제비<br/>깻잎들깨불고기<br/>새송이버터간장조림<br/>마카로니샐러드</td>
+                            <td>건새우근대국<br/>치킨찹스테이크<br/>시금치크림파스타<br/>수제야채피클</td>
+                            <td>닭칼국수<br/>생선까스*타르타르소스<br/>오징어어묵무침<br/>달래봄동겉절이</td>
+                            <td>명절연휴</td>
+                        </tr>
+                        <tr>
+                            <th>석<br/><br/>식</th>
+                            <th>백반</th>
+                            <td>운영없음</td>
+                            <td>운영없음</td>
+                            <td>운영없음</td>
+                            <td>운영없음</td>
+                            <td>운영없음</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="scroll_info">* 식단표를 스크롤하여 확인하세요.</div>
+        </div>
+    </div>
+    <link href="/common/css/layout.css" rel="stylesheet" type="text/css">
+    <link href="/common/css/basic.css" rel="stylesheet" type="text/css">
+    <div class="section">
+        <div class="ttArea"><h5 class="title">후생관</h5>    <span
+                class="info">02월 02주(02월 05일 ~ 02월 09일 적용)&nbsp;/&nbsp;<span class="red">토요일 운영없음</span></span>
+            <div class="menu_scrollArea">
+                <div class="table_wrap">
+                    <table class="tblType03" cellspacing="0" cellpadding="0">
+                        <colgroup>
+                            <col style="WIDTH: 4.5%">
+                            <col style="WIDTH: 10.5%">
+                            <col style="widh: 17%">
+                            <col style="widh: 17%">
+                            <col style="widh: 17%">
+                            <col style="widh: 17%">
+                            <col style="widh: 17%">
+                        </colgroup>
+                        <thead>
+                        <tr>
+                            <th colspan="2">식구분</th>
+                            <th>월</th>
+                            <th>화</th>
+                            <th>수</th>
+                            <th>목</th>
+                            <th>금</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th rowspan="6">한<br/><br/>식</th>
+                            <th>조식</th>
+                            <td>운영없음</td>
+                            <td>운영없음</td>
+                            <td>운영없음</td>
+                            <td>운영없음</td>
+                            <td>운영없음<br/></td>
+                        </tr>
+                        <tr>
+                            <th>찌개</th>
+                            <td><span
+                                    style="color: rgb(34, 34, 34); letter-spacing: -1px; background-color: rgb(243, 243, 243);">운영없음</span>
+                            </td>
+                            <td>돈육짜글이*치킨랩</td>
+                            <td>운영없음<br/></td>
+                            <td>온메밀국수*연어초밥</td>
+                            <td>운영없음</td>
+                        </tr>
+                        <tr>
+                            <th>돌솥</th>
+                            <td><span
+                                    style="color: rgb(34, 34, 34); letter-spacing: -1px; background-color: rgb(243, 243, 243);">치즈뚝배기라볶이(김말이)&amp;주먹밥</span>
+                            </td>
+                            <td><span
+                                    style="color: rgb(34, 34, 34); letter-spacing: -1px; background-color: rgb(243, 243, 243);">운영없음</span>
+                            </td>
+                            <td>돌솥비빔밥/주꾸미비빔밥&amp;요구르트</td>
+                            <td><span
+                                    style="color: rgb(34, 34, 34); letter-spacing: -1px; background-color: rgb(243, 243, 243);">운영없음</span>
+                            </td>
+                            <td>운영없음</td>
+                        </tr>
+                        <tr>
+                            <th>특식</th>
+                            <td>일식카레(난)&amp;치킨가라아게</td>
+                            <td>돈삼겹김치볶음밥&amp;숯불닭꼬치</td>
+                            <td>고추참치마요덮밥&amp;팝콘치킨</td>
+                            <td>숯불순살치밥*계란후라이</td>
+                            <td>운영없음</td>
+                        </tr>
+                        <tr>
+                            <th>도시락</th>
+                            <td><br/></td>
+                            <td><br/></td>
+                            <td><br/></td>
+                            <td><br/></td>
+                            <td><br/></td>
+                        </tr>
+                        <tr>
+                            <th>덮밥/비빔밥</th>
+                            <td>비빔밥/돈불비빔밥/주꾸미비빔밥</td>
+                            <td>비빔밥/돈불비빔밥/주꾸미비빔밥</td>
+                            <td>비빔밥/돈불비빔밥/주꾸미비빔밥</td>
+                            <td>비빔밥/돈불비빔밥/주꾸미비빔밥</td>
+                            <td>운영없음</td>
+                        </tr>
+                        <tr>
+                            <th>샐러드</th>
+                            <th>샐러드</th>
+                            <td>목살샐러드</td>
+                            <td>리코타치즈샐러드</td>
+                            <td>풀드포크샐러드</td>
+                            <td>버터새우샐러드</td>
+                            <td>운영없음</td>
+                        </tr>
+                        <tr>
+                            <th rowspan="3">양식</th>
+                            <th>돈까스류</th>
+                            <td colspan="5">순살등심돈까스 / 치즈돈까스 / 치킨까스</td>
+                        </tr>
+                        <tr>
+                            <th rowspan="2">오므라이스류</th>
+                            <td colspan="5">소시지오므라이스</td>
+                        </tr>
+                        <tr>
+                            <td>치킨스테이크오므라이스</td>
+                            <td>고구마치즈돈까스오므라이스</td>
+                            <td>치즈치킨까스오므라이스</td>
+                            <td>랍스타피자롤까스오므라이스</td>
+                            <td>운영없음</td>
+                        </tr>
+                        <tr>
+                            <th rowspan="3">분식</th>
+                            <th>김밥</th>
+                            <td colspan="5">생협김밥/ 치즈김밥/ 샐러드김밥/ 참치마요김밥</td>
+                        </tr>
+                        <tr>
+                            <th>라면</th>
+                            <td colspan="5">계란라면/ 치즈라면/ 순두부열라면/ 짜계치/ 국물떡볶이/ 라면정식/ 라면김밥세트/ 삶은계란/ 김말이/ 오징어튀김</td>
+                        </tr>
+                        <tr>
+                            <th>우동</th>
+                            <td colspan="5">유부우동/ 김치우동/ 꼬지우동/ 새우튀김우동/ 김밥우동세트</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="scroll_info">* 식단표를 스크롤하여 확인하세요.</div>
+        </div>
+    </div>
+</div>
+</div>
+</div><!-- #contents End -->
+<div id="foot">
+	<div class="footerWrap">
+	<div class="foot_util">
+		<div class="inner">
+			<a href="/member/privacy.php">개인정보처리방침</a>
+			<a href="/member/service.php">이용약관</a>
+			<a href="/about/location.php">조합찾아오기</a>
+			<a href="https://www.jbnu.ac.kr" class="last" target="_blank" rel="noopener noreferrer">전북대학교 홈페이지 바로가기</a>
+		</div>
+	</div>
+	<div class="address">
+		<div class="inner">
+			<p class="pct">
+				주소 : 561-756 전북 전주시 덕진구 백제대로 567 전북대학교 제2학생회관2층<br>
+				전화 : 063) 270-2151~2<span class="bul">|</span>팩스 : 063)270-2610<span class="bul">|</span>사업자등록번호 : 418-82-08155
+			</p>
+			<p class="mobile">
+				주소 : 561-756 전북 전주시 덕진구 백제대로 567 <br>
+				전북대학교 제2학생회관2층<span class="bul">|</span>전화 : 063) 270-2151~2<br>
+				팩스 : 063)270-2610<span class="bul">|</span>사업자등록번호 : 418-82-08155
+			</p>
+			<span class="copy">COPYRIGHT © 전북대학교 소비자생활협동조합. ALL RIGHTS RESERVED.</span>	
+			<a href="javascript:goTop();" class="btn_top"><img src="/images/sobi/common/btn_top.png" alt=""></a>
+		</div>
+	</div>
+</div></div>
+</body>
+</html>

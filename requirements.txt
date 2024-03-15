@@ -1,0 +1,16 @@
+python-dotenv == 1.0.0
+Flask == 3.0.0
+requests == 2.31.0
+Pillow == 10.1.0
+gunicorn == 21.2.0
+flasgger == 0.9.7.2.dev2
+numpy
+Pillow
+beautifulsoup4
+datetime
+qrcode
+Cargo
+Rust
+requests
+urllib3
+pandas
